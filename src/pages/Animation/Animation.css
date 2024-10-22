@@ -1,0 +1,40 @@
+#con {
+    margin: 10px auto;
+    max-width: fit-content;
+    border-radius: 5px;
+}
+  
+#field {
+    border-radius: 5px;
+    background-image: url(./field.jpg);
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+  
+#controll {
+    margin: 10px;
+    font-size: 16px;
+}
+  
+#run {
+    margin-right: 10px;
+    height: 60px;
+    border-radius: 15px;
+}
+  
+#ball {
+    border-radius: 50%;
+    background-size: cover;
+    transition: transform 0.1s linear;
+}
+  
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

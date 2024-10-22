@@ -1,0 +1,27 @@
+.Timer-container{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightgray;
+    margin-bottom: 0.5rem;
+}
+
+.Timer-tital{
+    color: darkblue;
+}
+
+.Timer-display{
+    border-radius: 0.5rem;
+    border: 1px solid;
+    text-align: right;
+    font-size: x-large;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+    width: 15rem;
+}
+
+.Timer-button{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}

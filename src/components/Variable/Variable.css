@@ -1,0 +1,24 @@
+.counter-container{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightgray;
+    margin-bottom: 0.5rem;
+}
+
+.tatle{
+    color: darkblue
+}
+
+.controls {
+    display: inline-flex;
+    align-items: center;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 1rem 01rem;
+}
+
+
